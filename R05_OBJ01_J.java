@@ -1,3 +1,6 @@
+//Rule 05. Object Orientation (OBJ)
+//OBJ01-J. Limit accessibility of fields
+//Compliant solution below:
 public class Widget {
   private int total; // Declared private
  
