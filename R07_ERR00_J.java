@@ -1,3 +1,6 @@
+//Rule 07. Exceptional Behavior (ERR)
+//ERR00-J. Do not suppress or ignore checked exceptions
+//compliant solution below
 boolean validFlag = false;
 do {
   try {
