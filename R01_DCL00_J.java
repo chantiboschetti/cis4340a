@@ -1,3 +1,6 @@
+//Rule 01. Declarations and Initialization (DCL)
+//DCL00-J. Prevent class initialization cycles
+//Compliant Solution below:
 public class Cycle {
   private final int balance;
   private static final int deposit = (int) (Math.random() * 100); // Random deposit
